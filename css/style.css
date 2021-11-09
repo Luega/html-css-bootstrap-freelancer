@@ -8,6 +8,9 @@
 .ms_txt-align-center {
     text-align: center;
 }
+.ms_display-only-xs {
+    display: none;
+}
 /* /MS_TAG */
 /* HEADER */
 header {
@@ -51,11 +54,19 @@ footer .ms_bottom {
     background-color: olive;
 }
 /* /FOOTER */
+@media screen and (max-width: 576px) {
+    .ms_display-no-xs {
+        display: none;
+    }
+    .ms_display-only-xs {
+        display: inline-block;
+        font-size: 2rem;
+    }
+}
 
 
 
-
-/* TEMPORAY-CLASS */
+/* TEMPORARY-CLASS */
 .square {
     height: 120px;
     background-color: violet;
