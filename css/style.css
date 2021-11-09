@@ -38,6 +38,20 @@ header {
     display: block;
 }
 /* /CONTACT-ME */
+/* FOOTER */
+footer {
+    height: 400px;
+    background-color: teal;
+}
+footer .ms_top {
+    height: 80%;
+    background-color: tomato;
+}
+footer .ms_bottom {
+    height: 20%;
+    background-color: olive;
+}
+/* /FOOTER */
 
 
 
