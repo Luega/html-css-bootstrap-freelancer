@@ -5,6 +5,9 @@
 .ms_height100per {
     height: 100%;
 }
+.ms_txt-align-center {
+    text-align: center;
+}
 /* /MS_TAG */
 /* HEADER */
 header {
@@ -17,3 +20,25 @@ header {
     background-color: turquoise;
 }
 /* /JUMBOTRON */
+/* PORTFOLIO */
+.portfolio {
+    background-color: tomato;
+}
+/* /PORTFOLIO */
+/* ABOUT */
+.about {
+    background-color: royalblue;
+}
+/* /ABOUT */
+/* CONTACT-ME */
+/* /CONTACT-ME */
+
+
+
+
+/* TEMPORAY-CLASS */
+.square {
+    height: 120px;
+    border: 1px solid black;
+    background-color: violet;
+}
