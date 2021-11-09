@@ -1,0 +1,14 @@
+:root {
+    --height-header: 100px 
+}
+/* MS_TAG */
+.ms_height100per {
+    height: 100%;
+}
+/* /MS_TAG */
+/* HEADER */
+header {
+    height: var(--height-header);
+    background-color: yellow;
+}
+/* /HEADER */
