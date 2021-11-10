@@ -56,8 +56,16 @@ body {
 }
 /* /ABOUT */
 /* CONTACT-ME */
-.contact-me input {
-    display: block;
+.contact-me .form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.contact-me textarea {
+    min-height: 200px;
+}
+.contact-me button {
+    background-color: var(--background-color-second);
 }
 /* /CONTACT-ME */
 /* FOOTER */
