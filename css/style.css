@@ -1,10 +1,10 @@
 :root {
-    --height-header: 100px 
+    --height-header: 80px; 
+    --base-font-color: white;
+    /* background-color */
+    --background-color-header: rgba(44,62,80,255);
 }
 /* MS_TAG */
-.ms_height100per {
-    height: 100%;
-}
 .ms_txt-align-center {
     text-align: center;
 }
@@ -14,8 +14,8 @@
 /* /MS_TAG */
 /* HEADER */
 header {
-    height: var(--height-header);
-    background-color: yellow;
+    
+    background-color: var(--background-color-header);
 }
 /* /HEADER */
 /* JUMBOTRON */
