@@ -3,6 +3,7 @@
     /* background-color */
     --background-color-first: rgba(44,62,80,255);
     --background-color-second: rgba(26,188,156,255);
+    --backgound-color-third: rgba(58,84,109,255);
     --background-color-bar-light: white;
     --background-color-bar-dark: black;
 }
@@ -56,11 +57,6 @@ body {
 }
 /* /ABOUT */
 /* CONTACT-ME */
-.contact-me .form-control {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
 .contact-me textarea {
     min-height: 200px;
 }
@@ -69,17 +65,19 @@ body {
 }
 /* /CONTACT-ME */
 /* FOOTER */
-footer {
-    background-color: teal;
+.footer-top {
+    background-color: var(--backgound-color-third);
 }
-footer .ms_top {
-    height: 80%;
-    background-color: tomato;
+.footer-top .start-bootstrap {
+    color: var(--background-color-second);
 }
-footer .ms_bottom {
-    height: 20%;
-    background-color: olive;
+.footer-bottom {
+    background-color: var(--background-color-first);
 }
+.footer-bottom .copyright {
+    font-size: 0.6rem;
+}
+
 /* /FOOTER */
 @media screen and (max-width: 576px) {
     .ms_display-no-xs {
