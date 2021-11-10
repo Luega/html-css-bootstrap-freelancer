@@ -1,3 +1,4 @@
+/* GENERAL */
 :root {
     --base-font-color: white;
     /* background-color */
@@ -11,11 +12,6 @@ body {
     color: var(--base-font-color);
     font-family: 'Montserrat', sans-serif;
 }
-/* MS_TAG */
-.ms_display-only-xs {
-    display: none;
-}
-/* /MS_TAG */
 /* DECORATION-STARK */
 .fa-star {
     vertical-align: middle;
@@ -33,9 +29,13 @@ body {
     background-color: var(--background-color-bar-dark);
 }
 /* /DECORATION-STARK */
+/* /GENERAL */
 /* HEADER */
 .header {
     background-color: var(--background-color-first);
+}
+.header a:hover {
+    color: var(--background-color-second);
 }
 /* /HEADER */
 /* JUMBOTRON */
@@ -49,6 +49,23 @@ body {
 /* PORTFOLIO */
 .portfolio img {
     width: 100%;
+}
+.portfolio .fa-plus {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+.portfolio img:hover  {
+    filter: opacity(0);
+    cursor: pointer;
+    transition: 1s;
+}
+.portfolio .project:hover .fa-plus {
+    visibility: visible;
+}
+.project {
+    background-color: var(--background-color-second);
 }
 /* /PORTFOLIO */
 /* ABOUT */
