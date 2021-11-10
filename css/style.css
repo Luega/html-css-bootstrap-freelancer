@@ -1,8 +1,8 @@
 :root {
     --base-font-color: white;
     /* background-color */
-    --background-color-header: rgba(44,62,80,255);
-    --background-color-jumbotron: rgba(26,188,156,255);
+    --background-color-first: rgba(44,62,80,255);
+    --background-color-second: rgba(26,188,156,255);
     --background-color-bar-light: white;
     --background-color-bar-dark: black;
 }
@@ -11,9 +11,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 /* MS_TAG */
-.ms_txt-align-center {
-    text-align: center;
-}
 .ms_display-only-xs {
     display: none;
 }
@@ -37,12 +34,15 @@ body {
 /* /DECORATION-STARK */
 /* HEADER */
 .header {
-    background-color: var(--background-color-header);
+    background-color: var(--background-color-first);
 }
 /* /HEADER */
 /* JUMBOTRON */
 .jumbotron {
-    background-color: var(--background-color-jumbotron);
+    background-color: var(--background-color-second);
+}
+.jumbotron img {
+    width: 15%;
 }
 /* /JUMBOTRON */
 /* PORTFOLIO */
@@ -52,7 +52,7 @@ body {
 /* /PORTFOLIO */
 /* ABOUT */
 .about {
-    background-color: royalblue;
+    background-color: var(--background-color-second);
 }
 /* /ABOUT */
 /* CONTACT-ME */
