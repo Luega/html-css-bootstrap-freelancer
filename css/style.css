@@ -1,8 +1,9 @@
 :root {
-    --height-header: 80px; 
     --base-font-color: white;
     /* background-color */
     --background-color-header: rgba(44,62,80,255);
+    --background-color-jumbotron: rgba(26,188,156,255);
+    --background-color-bar: white;
 }
 * {
     color: var(--base-font-color);
@@ -23,7 +24,20 @@
 /* /HEADER */
 /* JUMBOTRON */
 .jumbotron {
-    background-color: turquoise;
+    background-color: var(--background-color-jumbotron);
+}
+.jumbotron img {
+    width: 20%;
+}
+.jumbotron .fa-star {
+    vertical-align: middle;
+    margin: 0.5em;
+}
+.jumbotron .bar {
+    width: 20%;
+    height: 3px;
+    background-color: var(--background-color-bar);
+    display: inline-block;
 }
 /* /JUMBOTRON */
 /* PORTFOLIO */
