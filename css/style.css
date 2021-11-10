@@ -4,6 +4,10 @@
     /* background-color */
     --background-color-header: rgba(44,62,80,255);
 }
+* {
+    color: var(--base-font-color);
+    font-family: 'Montserrat', sans-serif;
+}
 /* MS_TAG */
 .ms_txt-align-center {
     text-align: center;
@@ -13,8 +17,7 @@
 }
 /* /MS_TAG */
 /* HEADER */
-header {
-    
+.header {
     background-color: var(--background-color-header);
 }
 /* /HEADER */
