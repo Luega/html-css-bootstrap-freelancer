@@ -3,9 +3,10 @@
     /* background-color */
     --background-color-header: rgba(44,62,80,255);
     --background-color-jumbotron: rgba(26,188,156,255);
-    --background-color-bar: white;
+    --background-color-bar-light: white;
+    --background-color-bar-dark: black;
 }
-* {
+body {
     color: var(--base-font-color);
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,6 +18,23 @@
     display: none;
 }
 /* /MS_TAG */
+/* DECORATION-STARK */
+.fa-star {
+    vertical-align: middle;
+    margin: 0.5em;
+}
+.star-bar {
+    width: 15%;
+    height: 3px;
+    display: inline-block;
+}
+.ms_light {
+    background-color: var(--background-color-bar-light);
+}
+.ms_dark {
+    background-color: var(--background-color-bar-dark);
+}
+/* /DECORATION-STARK */
 /* HEADER */
 .header {
     background-color: var(--background-color-header);
@@ -26,23 +44,10 @@
 .jumbotron {
     background-color: var(--background-color-jumbotron);
 }
-.jumbotron img {
-    width: 20%;
-}
-.jumbotron .fa-star {
-    vertical-align: middle;
-    margin: 0.5em;
-}
-.jumbotron .bar {
-    width: 20%;
-    height: 3px;
-    background-color: var(--background-color-bar);
-    display: inline-block;
-}
 /* /JUMBOTRON */
 /* PORTFOLIO */
-.portfolio {
-    background-color: tomato;
+.portfolio img {
+    width: 100%;
 }
 /* /PORTFOLIO */
 /* ABOUT */
